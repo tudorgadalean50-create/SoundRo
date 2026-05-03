@@ -1,0 +1,141 @@
+body{ 
+  background-color:#310016 ; 
+  margin-left:0px; 
+  margin-top:0px; 
+  background-image:url(images/bg.jpg); background-attachment:fixed; background-position:top center; 
+  background-repeat:repeat-x; font-family:"Comic Sans MS", cursive; color:#FFF;
+  }
+
+a:link { color:#FFFFFF; 
+         text-decoration:none;}      /* link nevizitat */
+a:visited { color:#FFFFFF; 
+            text-decoration:none;}    /* link vizitat */
+a:hover { color:#FF0000}  /* link cu mouse-over*/
+a:active {color:#C00}  /* link selectat */
+a img{border:none;}
+
+
+/* ######### PAGINARE ######## */
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #FFF;
+	text-decoration: none; /* no underline */
+	color: #FFF;background-color: #222;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #FFF;
+	color: #FFF;
+	background-color: #C00;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #FFF;
+	font-weight: bold;
+	background-color: #F00;
+	color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #999;
+		color: #999;background-color: #222;
+	}
+
+/* ######### MENIU SUS ######## */
+
+ul.menu {
+list-style-type:none;
+width:auto;
+position:relative;
+display:block;
+height:33px;
+font-size:.6em;
+background:url(images/bg.png) repeat-x top left;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+border:1px solid #000;
+margin:0;
+padding:0;
+}
+
+ul.menu li {
+display:block;
+float:left;
+margin:0;
+padding:0;
+}
+
+ul.menu li a {
+float:left;
+color:#A79787;
+text-decoration:none;
+height:24px;
+padding:9px 15px 0;
+}
+
+ul.menu li a:hover,.current {
+color:#fff;
+background:url(images/bg.png) repeat-x top left;
+}
+
+ul.menu .current a {
+color:#fff;
+font-weight:700;
+}
+
+
+/*RED*/
+ul.menu.red{
+background-color:#B11718;
+}
+ul.menu.red li a:hover, .menu.red li.current {
+background-color:#DE3330;
+}
+
+/*##########  Meniu parfumuri ##########*/
+.meniu{ background-color:#111; width:220px;}
+
+/*##########  parfum in categorie ##########*/
+.produs {
+  font-family: Arial;
+  width: 160px; background-color:#FFF; border:solid 2px #111;
+  }
+.produs .boxtop {
+  text-align: center;
+  padding: 6px 8px 4px 10px;
+  font-size: 16px; height:30px; font-weight:bold;
+  color: #222222;
+  }
+.produs .boxbot {
+  margin: 0;
+  text-align: left;
+  padding: 10px 10px 15px 10px;
+  color: #222222; height:180px;
+  font-size: 13px;
+  }
+  
+/*##########  detalii produs ##########*/
+.ceas {
+  font-family: Comic Sans MS;
+  width: 560px; background-color:#FFF; border:solid 2px #111;
+  }
+.ceas .boxtop {
+  text-align: center;
+  padding: 6px 8px 4px 10px;
+  font-size: 20px; font-weight:bold; height:40px;
+  color: #222222;
+  }
+.ceas .boxbot {
+  margin: 0;
+  text-align: left;
+  padding: 10px 50px 75px 50px;
+  color: #222222;
+  font-size: 14px;
+  }
+.ceas .boxbot a{ color:#C00;}
